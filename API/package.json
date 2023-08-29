@@ -1,0 +1,29 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^4.0.0",
+    "@koa/router": "^12.0.0",
+    "bitcoin-block": "^2.0.2",
+    "bitcoin-core": "^4.1.0",
+    "bitcoin-core-json": "^1.0.4",
+    "bitcoin-live-transactions": "^0.0.13",
+    "body-parser": "^1.20.1",
+    "dotenv-safe": "^8.2.0",
+    "koa": "^2.14.1"
+  },
+  "devDependencies": {
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^12.0.0",
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.20"
+  }
+}

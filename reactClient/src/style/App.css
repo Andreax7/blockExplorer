@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+.App-logo {
+  height: 10vmin;
+  position: absolute;
+  left: 5%;
+  top:1%;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #192235;
+  min-height: 40vh;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+ 
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#header, a{
+  position: absolute;
+  left: 12%;
+  font-family: 'Black Ops One', cursive;
+  font-size: 32px;
+  text-decoration: none;
+  /*background: -webkit-linear-gradient(90deg, rgba(2,0,21,1) 15%, rgba(57,147,132,1) 46%, rgba(37,162,182,1) 86%);
+  -webkit-background-clip: text;*/
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px rgba(118, 243, 243, 0.4);
+}
+
+html{
+  background-color: rgba(45, 63, 112, 0.9);
+}
+.Latest{
+  font-family: 'Acme', sans-serif;
+  margin-top:-12px;
+}
+.search{
+  position: absolute;
+  top:4%;
+  left:25%;
+}
+
+p{
+  font-family: 'Acme', sans-serif;
+}
+
+.news{
+  position: absolute;
+  top:27%;
+  left:40%;
+  font-size: 20px;
+  color:  rgba(51, 182, 243, 0.479);
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
